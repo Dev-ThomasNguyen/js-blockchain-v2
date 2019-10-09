@@ -55,7 +55,7 @@ class Blockchain {
     return true;
   }
 }
-// Testing
+// Test
 let jsChain = new Blockchain();
 jsChain.addBlock(new Block("12/25/2017", { amount: 5 }));
 jsChain.addBlock(new Block("12/26/2017", { amount: 10 }));
